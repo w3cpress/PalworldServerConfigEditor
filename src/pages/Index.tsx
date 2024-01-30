@@ -22,12 +22,14 @@ const Page: React.FC = () => {
         title: 'Difficulty',
         name: 'Difficulty',
         initialValue: 'None',
+        width: 150,
       },
       {
         title: 'DayTimeSpeedRate',
         name: 'DayTimeSpeedRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -37,6 +39,7 @@ const Page: React.FC = () => {
         name: 'NightTimeSpeedRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -46,6 +49,7 @@ const Page: React.FC = () => {
         name: 'ExpRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -55,6 +59,7 @@ const Page: React.FC = () => {
         name: 'PalCaptureRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -64,6 +69,7 @@ const Page: React.FC = () => {
         name: 'PalSpawnNumRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -73,6 +79,7 @@ const Page: React.FC = () => {
         name: 'PalDamageRateAttack',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -82,6 +89,7 @@ const Page: React.FC = () => {
         name: 'PalDamageRateDefense',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -91,6 +99,7 @@ const Page: React.FC = () => {
         name: 'PlayerDamageRateAttack',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -100,6 +109,7 @@ const Page: React.FC = () => {
         name: 'PlayerDamageRateDefense',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -109,6 +119,7 @@ const Page: React.FC = () => {
         name: 'PlayerStomachDecreaceRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -118,6 +129,7 @@ const Page: React.FC = () => {
         name: 'PlayerStaminaDecreaceRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -127,6 +139,7 @@ const Page: React.FC = () => {
         name: 'PlayerAutoHPRegeneRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -136,6 +149,7 @@ const Page: React.FC = () => {
         name: 'PlayerAutoHpRegeneRateInSleep',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -145,6 +159,7 @@ const Page: React.FC = () => {
         name: 'PalStomachDecreaceRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -154,6 +169,7 @@ const Page: React.FC = () => {
         name: 'PalStaminaDecreaceRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -163,6 +179,7 @@ const Page: React.FC = () => {
         name: 'PalAutoHPRegeneRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -172,6 +189,7 @@ const Page: React.FC = () => {
         name: 'PalAutoHpRegeneRateInSleep',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -181,6 +199,7 @@ const Page: React.FC = () => {
         name: 'BuildObjectDamageRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -190,6 +209,7 @@ const Page: React.FC = () => {
         name: 'BuildObjectDeteriorationDamageRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -199,6 +219,7 @@ const Page: React.FC = () => {
         name: 'CollectionDropRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -208,6 +229,7 @@ const Page: React.FC = () => {
         name: 'CollectionObjectHpRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -217,6 +239,7 @@ const Page: React.FC = () => {
         name: 'CollectionObjectRespawnSpeedRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -226,6 +249,7 @@ const Page: React.FC = () => {
         name: 'EnemyDropItemRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -234,6 +258,7 @@ const Page: React.FC = () => {
         title: 'DeathPenalty',
         name: 'DeathPenalty',
         initialValue: 'All',
+        width: 150,
         valueType: 'select',
         valueEnum: {
           'All': 'All',
@@ -247,66 +272,77 @@ const Page: React.FC = () => {
         name: 'bEnablePlayerToPlayerDamage',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'bEnableFriendlyFire',
         name: 'bEnableFriendlyFire',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'bEnableInvaderEnemy',
         name: 'bEnableInvaderEnemy',
         valueType: 'switch',
         initialValue: true,
+        width: 150,
       },
       {
         title: 'bActiveUNKO',
         name: 'bActiveUNKO',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'bEnableAimAssistPad',
         name: 'bEnableAimAssistPad',
         valueType: 'switch',
         initialValue: true,
+        width: 150,
       },
       {
         title: 'bEnableAimAssistKeyboard',
         name: 'bEnableAimAssistKeyboard',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'DropItemMaxNum',
         name: 'DropItemMaxNum',
         valueType: 'digit',
         initialValue: 3000,
+        width: 150,
       },
       {
         title: 'DropItemMaxNum_UNKO',
         name: 'DropItemMaxNum_UNKO',
         valueType: 'digit',
         initialValue: 100,
+        width: 150,
       },
       {
         title: 'BaseCampMaxNum',
         name: 'BaseCampMaxNum',
         valueType: 'digit',
         initialValue: 128,
+        width: 150,
       },
       {
         title: 'BaseCampWorkerMaxNum',
         name: 'BaseCampWorkerMaxNum',
         valueType: 'digit',
         initialValue: 15,
+        width: 150,
       },
       {
         title: 'DropItemAliveMaxHours',
         name: 'DropItemAliveMaxHours',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -316,12 +352,14 @@ const Page: React.FC = () => {
         name: 'bAutoResetGuildNoOnlinePlayers',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'AutoResetGuildTimeNoOnlinePlayers',
         name: 'AutoResetGuildTimeNoOnlinePlayers',
         valueType: 'digit',
         initialValue: 72.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -331,12 +369,14 @@ const Page: React.FC = () => {
         name: 'GuildPlayerMaxNum',
         valueType: 'digit',
         initialValue: 20,
+        width: 150,
       },
       {
         title: 'PalEggDefaultHatchingTime',
         name: 'PalEggDefaultHatchingTime',
         valueType: 'digit',
         initialValue: 72.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -346,6 +386,7 @@ const Page: React.FC = () => {
         name: 'WorkSpeedRate',
         valueType: 'digit',
         initialValue: 1.000000,
+        width: 150,
         fieldProps: {
           step: '0.000001',
         },
@@ -355,90 +396,105 @@ const Page: React.FC = () => {
         name: 'bIsMultiplay',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'bIsPvP',
         name: 'bIsPvP',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'bCanPickupOtherGuildDeathPenaltyDrop',
         name: 'bCanPickupOtherGuildDeathPenaltyDrop',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'bEnableNonLoginPenalty',
         name: 'bEnableNonLoginPenalty',
         valueType: 'switch',
         initialValue: true,
+        width: 150,
       },
       {
         title: 'bEnableFastTravel',
         name: 'bEnableFastTravel',
         valueType: 'switch',
         initialValue: true,
+        width: 150,
       },
       {
         title: 'bIsStartLocationSelectByMap',
         name: 'bIsStartLocationSelectByMap',
         valueType: 'switch',
         initialValue: true,
+        width: 150,
       },
       {
         title: 'bExistPlayerAfterLogout',
         name: 'bExistPlayerAfterLogout',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'bEnableDefenseOtherGuildPlayer',
         name: 'bEnableDefenseOtherGuildPlayer',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'CoopPlayerMaxNum',
         name: 'CoopPlayerMaxNum',
         valueType: 'digit',
         initialValue: 4,
+        width: 150,
       },
       {
         title: 'ServerPlayerMaxNum',
         name: 'ServerPlayerMaxNum',
         valueType: 'digit',
         initialValue: 32,
+        width: 150,
       },
       {
         title: 'ServerName',
         name: 'ServerName',
         valueType: 'text',
         initialValue: 'Default Palworld Server',
+        width: 150,
       },
       {
         title: 'ServerDescription',
         name: 'ServerDescription',
         valueType: 'text',
         initialValue: '',
+        width: 150,
       },
       {
         title: 'AdminPassword',
         name: 'AdminPassword',
         valueType: 'text',
         initialValue: '',
+        width: 150,
       },
       {
         title: 'ServerPassword',
         name: 'ServerPassword',
         valueType: 'text',
         initialValue: '',
+        width: 150,
       },
       {
         title: 'PublicPort',
         name: 'PublicPort',
         valueType: 'digit',
         initialValue: 8211,
+        width: 150,
       },
       {
         title: '公网IP',
@@ -446,36 +502,42 @@ const Page: React.FC = () => {
         name: 'PublicIP',
         valueType: 'text',
         initialValue: '',
+        width: 150,
       },
       {
         title: 'RCONEnabled',
         name: 'RCONEnabled',
         valueType: 'switch',
         initialValue: false,
+        width: 150,
       },
       {
         title: 'RCONPort',
         name: 'RCONPort',
         valueType: 'digit',
         initialValue: 25575,
+        width: 150,
       },
       {
         title: 'Region',
         name: 'Region',
         valueType: 'text',
         initialValue: '',
+        width: 150,
       },
       {
         title: 'bUseAuth',
         name: 'bUseAuth',
         valueType: 'switch',
         initialValue: true,
+        width: 150,
       },
       {
         title: 'BanListURL',
         name: 'BanListURL',
         valueType: 'text',
         initialValue: 'https://api.palworldgame.com/api/banlist.txt',
+        width: 150,
       },
     ];
 
@@ -666,7 +728,7 @@ const Page: React.FC = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="w-3/4">
+        <div className="w-5/6">
           <ProForm
             form={form}
             autoFocus={false}
@@ -675,8 +737,8 @@ const Page: React.FC = () => {
               updateConfig(values);
             }}
             layout="horizontal"
-            labelCol={{ span: 12 }}
-            wrapperCol={{ span: 12 }}
+            labelCol={{ span: 13 }}
+            wrapperCol={{ span: 11 }}
           >
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4">
               <BetaSchemaForm
