@@ -10,4 +10,6 @@
 
 2024.01.30 by barry
 ## 参考资料其他
-简体中文 参考 [《Palworld/幻兽帕鲁 服务器参数对照表》](https://pal.438818.xyz/)
+简体中文 参考 
+1.[《Palworld/幻兽帕鲁 服务器参数对照表》](https://www.bilibili.com/read/cv30201067/)
+2.[《Palworld/幻兽帕鲁 服务器参数对照表》](https://pal.438818.xyz)
